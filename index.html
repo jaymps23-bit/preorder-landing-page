@@ -575,25 +575,6 @@
             margin-bottom: 20px;
         }
         
-        .admin-note {
-            background-color: #f8f9fa;
-            padding: 10px 15px;
-            border-radius: 8px;
-            margin-top: 20px;
-            font-size: 0.85rem;
-            color: #666;
-            border-left: 3px solid var(--primary);
-        }
-        
-        .admin-note a {
-            color: var(--primary-dark);
-            font-weight: 600;
-            text-decoration: none;
-        }
-        
-        .admin-note a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
@@ -926,9 +907,6 @@
                         <i class="fab fa-whatsapp"></i> Submit & Get WhatsApp Invitation
                     </button>
                     
-                    <div class="admin-note">
-                        <p><strong>Admin Note:</strong> Form submissions save directly to Google Sheets. To set up, create Google Apps Script and update the <code>GOOGLE_SCRIPT_URL</code> in the JavaScript.</p>
-                    </div>
                 </form>
             </div>
             
@@ -938,9 +916,6 @@
                 <p>Your information has been saved successfully.</p>
                 <p>We'll send you the WhatsApp group invitation within 24 hours.</p>
                 <p><strong>Next Steps:</strong> Check your WhatsApp for our invitation message.</p>
-                <div class="admin-note" style="margin-top: 20px;">
-                    <p><i class="fas fa-info-circle"></i> This submission has been saved to Google Sheets.</p>
-                </div>
             </div>
         </div>
     </div>
@@ -1197,3 +1172,4 @@ Source: ${data['hear-about'] || 'Not specified'}`;
     </script>
 </body>
 </html>
+
